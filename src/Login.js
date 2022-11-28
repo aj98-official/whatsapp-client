@@ -14,7 +14,7 @@ function Login() {
             .then((result) => {
                 dispatch({
                     type: actionTypes.SET_USER,
-                    user: result.user,
+                    user: result.user
                 })
                 const createuser = async () => {
                     console.log("nnnnnnnnn", result.user.email)
@@ -25,7 +25,7 @@ function Login() {
                         "useruid": result.user.email,
                         "username": result.user.displayName,
                         "purl": result.user.photoURL,
-                        "lastseen": time+" "+today
+                        "lastseen": time + " " + today
                     })
                 }
                 createuser();

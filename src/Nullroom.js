@@ -12,9 +12,9 @@ function Nullroom() {
                 {/* <div class="_2JIth" data-asset-intro-image-light="true">
                 </div> */}
                 <div class="null__centre">
-                    
-                    <img className='null__introimage' src={wimg} alt="Whatsapp intro logo"/>
-                    
+
+                    <img className='null__introimage' src={wimg} alt="Whatsapp intro logo" />
+
                     <h1>Welcome to whatsapp-clone</h1>
                     <div className='null__details'>Click on any contact to chat in realtime response. This project is made by following cleverprogramming tutorials</div>
                     <div class="null__contact">
@@ -25,7 +25,7 @@ function Nullroom() {
                                 </path> */}
                                 </svg>
                             </span></span>
-                        <div class="null__contactpara">Here is my &nbsp; <a href="https://www.linkedin.com/in/ashish-tiwari-8b95671bb/" target="_blank"> Linkedin</a>&nbsp; and &nbsp; <a href="https://github.com/ashtiv" target="_blank">Github</a>&nbsp;  for contact purpose.
+                        <div class="null__contactpara">Here is my &nbsp; <a href="https://www.linkedin.com/in/ashutosh-jaiswal-2b90b7192/" target="_blank"> Linkedin</a>&nbsp; and &nbsp; <a href="https://github.com/aj98-official" target="_blank">Github</a>&nbsp;  for contact purpose.
                         </div>
                     </div>
                 </div>
